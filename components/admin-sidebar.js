@@ -13,7 +13,7 @@ export default function AdminSidebar() {
               href="/admin/product"
               className="block p-3 rounded-lg hover:bg-blue-700 flex items-center"
             >
-              List Product
+              Products
             </Link>
           </li>
           <li>
@@ -22,6 +22,32 @@ export default function AdminSidebar() {
               className="block p-3 rounded-lg hover:bg-blue-700 flex items-center"
             >
               Add Product
+            </Link>
+          </li>
+          <hr/>
+          <li>
+            <Link
+              href="/admin/product"
+              className="block p-3 rounded-lg hover:bg-blue-700 flex items-center"
+            >
+              List Order
+            </Link>
+          </li>
+          <hr/>
+          <li>
+            <Link
+              href="/admin/product"
+              className="block p-3 rounded-lg hover:bg-blue-700 flex items-center"
+            >
+              List Users
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/admin/product/add"
+              className="block p-3 rounded-lg hover:bg-blue-700 flex items-center"
+            >
+              Add User
             </Link>
           </li>
         </ul>
